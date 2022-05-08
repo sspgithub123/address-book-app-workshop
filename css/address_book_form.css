@@ -12,8 +12,7 @@ error-output {
     font-style: italic;
 }
 
-.head-text
-{
+.head-text {
     text-align: left;
     margin-left: 25%;
     font: normal normal normal 28px/37px Roboto;
@@ -22,6 +21,7 @@ error-output {
     text-transform: uppercase;
     opacity: 1;
 }
+
 .header {
     padding: 15px;
     background-color: #ffffff;
@@ -81,7 +81,7 @@ error-output {
     opacity: 1;
     margin-top: 40px;
     width: 60%;
-    
+
 }
 
 .form-head {
@@ -108,8 +108,9 @@ error-output {
     padding: 3px 0 0;
     padding-left: 0px;
     padding-top: 3px;
-    margin: auto 0 auto auto; 
+    margin: auto 0 auto auto;
 }
+
 .cancel-button a {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
@@ -117,7 +118,7 @@ error-output {
 
 .form-head {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     padding: 0 70px;
 }
 
@@ -223,17 +224,17 @@ select {
     opacity: 1;
 }
 
-.resetButton
-{
+.resetButton {
     margin-right: 30px;
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
     border-radius: 5px;
     opacity: 1;
 }
+
 @media only screen and (max-width: 930px) {
 
-    .form-content{
+    .form-content {
         width: 50%;
     }
 
@@ -263,8 +264,6 @@ select {
     }
 
 }
-
-
 
 @media only screen and (max-width: 400px) {
     .form-content {
